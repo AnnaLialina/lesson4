@@ -1,0 +1,80 @@
+html {
+	height: 100%;
+}
+html, body {
+	min-height: 100%
+}
+body {
+	background-color: #3b3f45;
+	font-family:  “Tebuchet MC”, Tebuchet, Arial, sans-serif;
+	border: 15px solid #fff;
+	box-sizing: border-box;
+	margin: 0px;
+}
+header, .bon_a p {
+	text-align: center;
+	color: #ec7f80;
+	background-color: #4a4f56;
+}
+header {
+	padding: 20px;
+}
+#list {
+	margin-top: 25px;
+	width: 50%;
+	margin-left: 25%;
+}
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+li {
+	color: #fff;
+	padding: 15px 10px;
+	list-style-type: none;
+	border-top: 2px solid transparent;
+ 	border-bottom: 2px solid transparent;
+}
+
+label:nth-child(odd) {
+	background-color: #89849f;
+}
+label:nth-child(even) {
+	background-color: #7b7694;
+}
+label {
+	display: block;
+}
+small {
+	quotes: "(" ")";
+	color: #bdc1ce;
+}
+small:before {
+	content: open-quote;
+}
+small:after {
+	content: close-quote;
+}
+.bon_a p {
+	padding: 20px 0px;
+}
+.bon_a {
+width: 50%;
+	margin-left: 25%;
+}
+
+* {transition: all .1s ease-in;
+}
+li:hover {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	background-color: #625e78;
+	transition: all .1s ease-in;
+}
+li:active {
+	background-color: #ec7f80;
+}
+input:checked + span {
+	text-decoration: line-through;
+	color: #bdc1ce;
+}
